@@ -33,5 +33,5 @@ body.addEventListener('mousemove', function (e) {
 
 // Copy color to clipboard:
 body.addEventListener('click', function (e) {
-  console.log(body.style.backgroundColor);
+  alert(body.style.backgroundColor);
 });
