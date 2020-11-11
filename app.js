@@ -3,11 +3,13 @@
 I've managed to make full red (255, 0, 0) and full blue (0, 0, 255) but couldn't 
 make full magenta *****(255, 0, 255), */
 
-/* TODO: for the magenta, divide the screen in for, and the center of the screen is magenta. 
+/* TODO 1: for the magenta, divide the screen in for, and the center of the screen is magenta. 
 To divide by four: 
 const middleWidht = width / 2;
 const middleHeight = height / 2;
 and go from there. The closest to the center point, the more red and blue
+
+TODO 2: cyan and tourquoise missing. Get them.  
 */
 
 const body = document.querySelector('body');
