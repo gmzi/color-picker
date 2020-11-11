@@ -7,3 +7,18 @@
 body {
   min-height: 100vh;
 }
+
+h4 {
+  margin-top: 20%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.second {
+  margin-top: 5px;
+}
+
+.hide {
+  display: none;
+}

@@ -11,8 +11,13 @@ and go from there. The closest to the center point, the more red and blue
 */
 
 const body = document.querySelector('body');
+const h4 = document.querySelector('h4');
+const second = document.querySelector('.second');
+
 body.addEventListener('mousemove', function (e) {
   // make the color:
+  h4.classList.add('hide');
+  second.classList.add('hide');
   let width = Math.round((e.pageX * 255) / window.innerWidth);
   let height = Math.round((e.pageY * 255) / window.innerHeight);
 
