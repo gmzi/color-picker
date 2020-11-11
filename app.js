@@ -32,6 +32,6 @@ body.addEventListener('mousemove', function (e) {
 });
 
 // Copy color to clipboard:
-body.addEventListener('click', function (e) {
+body.addEventListener('dblclick', function (e) {
   alert(`${body.style.backgroundColor}`);
 });
