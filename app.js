@@ -1,7 +1,7 @@
 // Change background color when moving the cursor (Unit 4.3.8).
 /* I'm trying to build some logic to have all colors with just moving the cursor, 
 I've managed to make full red (255, 0, 0) and full blue (0, 0, 255) but couldn't 
-make full magenta (0, 255, 0), */
+make full magenta *****(255, 0, 255), */
 
 const body = document.querySelector('body');
 body.addEventListener('mousemove', function (e) {
