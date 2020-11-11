@@ -3,12 +3,19 @@
 I've managed to make full red (255, 0, 0) and full blue (0, 0, 255) but couldn't 
 make full magenta *****(255, 0, 255), */
 
+/* TODO: for the magenta, divide the screen in for, and the center of the screen is magenta. 
+To divide by four: 
+const middleWidht = width / 2;
+const middleHeight = height / 2;
+and go from there. The closest to the center point, the more red and blue
+*/
+
 const body = document.querySelector('body');
 body.addEventListener('mousemove', function (e) {
   // make the color:
   let width = Math.round((e.pageX * 255) / window.innerWidth);
   let height = Math.round((e.pageY * 255) / window.innerHeight);
-  // (getting so lost here):
+
   let diagonal = Math.round(width + height / 255);
   let r = 255 - diagonal;
   let g = width - height;
