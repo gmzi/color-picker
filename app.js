@@ -1,15 +1,10 @@
-// Change background color when moving the cursor (Unit 4.3.8).
-/* I'm trying to build some logic to have all colors with just moving the cursor, 
-I've managed to make full red (255, 0, 0) and full blue (0, 0, 255) but couldn't 
-make full magenta *****(255, 0, 255), */
-
 /* TODO 1: for the magenta, divide the screen in for, and the center of the screen is magenta. 
 To divide by four: 
 const middleWidht = width / 2;
 const middleHeight = height / 2;
 and go from there. The closest to the center point, the more red and blue
 
-TODO 2: cyan and tourquoise missing. Get them.  
+TODO 2: cyan and tourquoise missing.  
 */
 
 const body = document.querySelector('body');
